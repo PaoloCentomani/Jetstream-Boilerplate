@@ -101,10 +101,10 @@ return [
     'not_regex' => 'Il formato del campo :attribute non è valido.',
     'numeric' => 'Il campo :attribute deve essere un numero.',
     'password' => [
-        'mixed' => 'Il campo :attribute deve contenere almeno un carattere maiuscolo ed uno minuscolo.',
         'letters' => 'Il campo :attribute deve contenere almeno una lettera.',
-        'symbols' => 'Il campo :attribute deve contenere almeno un carattere speciale.',
+        'mixed' => 'Il campo :attribute deve contenere almeno un carattere maiuscolo ed uno minuscolo.',
         'numbers' => 'Il campo :attribute deve contenere almeno un numero.',
+        'symbols' => 'Il campo :attribute deve contenere almeno un carattere speciale.',
         'uncompromised' => 'Il campo :attribute è contenuto in un archivio di dati rubati. Utilizza un valore differente.',
     ],
     'present' => 'Il campo :attribute deve essere presente.',
