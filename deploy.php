@@ -17,7 +17,7 @@ add('writable_dirs', []);
 
 host('123.123.123.123')
     ->set('branch', 'main')
-    ->set('deploy_path', '/var/www/{{ domain }}')
+    ->set('deploy_path', '/var/www/{{domain}}')
     ->set('remote_user', 'paolo');
 
 // Tasks

@@ -15,7 +15,7 @@ module.exports = {
                 //
             },
             fontFamily: {
-                sans: ['Barlow', ...defaultTheme.fontFamily.sans],
+                sans: [...defaultTheme.fontFamily.sans],
             },
         },
     },
